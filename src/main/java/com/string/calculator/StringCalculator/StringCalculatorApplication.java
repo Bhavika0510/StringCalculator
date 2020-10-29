@@ -12,7 +12,7 @@ public class StringCalculatorApplication {
 		SpringApplication.run(StringCalculatorApplication.class, args);
 		StringCalculator strCal=new StringCalculator();
 		try {
-			strCal.Add("//aa\n1aa2aa1005");
+			strCal.Add("//[aa][b]\n1aa2b15");
 		}catch(NegativeNumberException ex) {
 			System.out.println(ex.getMessage());
 		}
